@@ -10,8 +10,10 @@ Considerando un numero p di predittori, il vettore <i> X = [x1, x2, ... , xp] </
 <br><br>
 in cui la funzione g() rappresenta la <i> funzione di attivazione </i>. Nella teoria del percettrone, la funzione utilizzata è la sigmoide
 
+![first equation](https://latex.codecogs.com/gif.latex?%5Csigma%28x%29%20%3D%20%5Cfrac%7B1%7D%7B%281&plus;e%5Ex%29%7D)
 
 che rende il percettrone un classificatore binario.
+
 
   
    
