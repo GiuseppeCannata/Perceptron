@@ -40,7 +40,7 @@ in cui <i> w0 </i> rappresenta l'intercetta mentre w1, ... , wp le relative pend
 <br><br>
 <b> - Plot residui </b>
 <br><br>
-Di seguito posto il plot dei residui calcolato sul training set sia del percettrone sia eseguendo una LinearRegression:
+Di seguito posto il plot dei residui calcolato sul training set sia del percettrone sia eseguendo una LinearRegression. Il dataset utilizzato è <a href="https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_boston.html">Boston house-prices</a> 
 <table>
         <tr><td><b>Perceptron</b></td><td><b>LinearRegression</b></td></tr>
         <tr><td><img  src="./img/plot_residui.png" width="320" height="230"></td><td><img  src="./img/.png" width="320" height="230"></td></tr>
