@@ -37,6 +37,12 @@ Detto ciò, il nostro percettrone costituirà un modello definito dal seguente h
 ![hyperpiano](https://latex.codecogs.com/gif.latex?y_%7Bpred_%7Bi%7D%7D%20%3D%20w_%7B0%7D%20&plus;%20w_%7B1%7Dx_%7Bi1%7D&plus;%20...%20&plus;%20w_%7Bp%7Dx_%7Bip%7D)
 <br><br>
 in cui <i> w0 </i> rappresenta l'intercetta mentre w1, ... , wp le relative pendenze.
+<br><br>
+<b> - Plot residui </b>
+<br>
+Di seguito posto il plot dei residui calcolato sul training set sia del percettrone sia eseguendo una LinearRegression:
+
+
 
 
 
