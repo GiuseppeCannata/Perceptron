@@ -27,13 +27,14 @@ I pesi vengono determinati attraverso la regola di aggiornamento <i> delta rule 
 <br><br>
 el i conseguente aggiornamento del vettore peso:
 <br><br>
-<img  Hspace="160">
+<img  Hspace="170">
 ![aggiornamento pesi](https://latex.codecogs.com/gif.latex?W_%7Bnew%7D%20%3D%20W_%7Bold%7D%20&plus;%20%5CDelta%7BW%7D)
 <br><br><br>
 <b> 2. Regressione </b>
 <br><br>
 Modificando la funzione di attivazione possiamo ottenere un modello regressivo. In particolare, sostituiamo la funzione sigmoidea con la funzione ReLU. Quest'ultima viene ad esprimersi matematicamente:
 <br><<br>
+<img  Hspace="130">
 ![formula relu](https://latex.codecogs.com/gif.latex?ReLU%28x%29%20%3D%20max%280%2Cx%29)
 <br><br>
 Detto ciò, il nostro percettrone costituirà un modello definito dal seguente hyperpiano:
@@ -50,15 +51,3 @@ Di seguito posto il plot dei residui calcolato sul training set sia del percettr
         <tr><td><b>Perceptron</b></td><td><b>LinearRegression</b></td></tr>
         <tr><td><img  src="./img/plot_residui.png" width="320" height="230"></td><td><img  src="./img/.png" width="320" height="230"></td></tr>
 </table>
-
-
-
-
-
-
-  
-   
-  
-  
-  
-  
