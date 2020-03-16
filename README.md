@@ -5,7 +5,7 @@
 Il percettrone venne proposto da Frank Rosenblatt nel 1958. La struttura è la seguente:
 <br><br>
 <img  src="./img/percettrone.JPG" height="250" width="450" Hspace="240">
-<br><br>
+<br>
 Considerando un numero p di predittori, il vettore <i> X = [x1, x2, ... , xp] </i> rappresenta l'input del percettrone. Quest'ultimo viene poi moltiplicato per il vettore dei pesi <i> W = [w1, w2, ... , wp] </i>. Detto ciò, l'output può essere espresso matematicamente dalla formula:
 <br><br>
 <img  Hspace="160">
