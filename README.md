@@ -14,7 +14,7 @@ in cui la funzione g(), detta <i> funzione di attivazione </i>, è spesso rappre
 <br><br>
 Quest'ultima ha un dominio di valori nel range [0,1] rendendo così il percettrone un classificatore binario. In particolare, supponendo di avere due classi A e B, il valore ritornato dalla funzione sigmoidea esprime la probabilità di appartenenza dell'esempio X alla classe A o B.
 <br><br>
-Di estrema importanza è il vettore dei pesi W. Il loro valore viene determinato durante la fase di apprendimento <i> (training) </i>, in maniera tale che la differenza (target - output) sia la più piccola possibile. In particolare con il temine target ci riferiamo al valore che ci aspettiamo per l'osservazione X, al contrario, con il termine output ci riferiamo al valore restituito dal percettrone <i>(predizione) </i>. I pesi vengono determinati attraverso la regola di aggiornamento <i> delta rule </i> matematicamente:
+Di estrema importanza è il vettore dei pesi W. Il loro valore viene determinato durante la fase di apprendimento <i> (training) </i>, in maniera tale che la differenza (target - output) sia la più piccola possibile. Ma quanto piccola? Considerando (target - output) come la funzione di loss, l'obiettivo è quello di raggiungere il minimo globale. In particolare con il temine target ci riferiamo al valore che ci aspettiamo per l'osservazione X, al contrario, con il termine output ci riferiamo al valore restituito dal percettrone <i>(predizione) </i>. I pesi vengono determinati attraverso la regola di aggiornamento <i> delta rule </i> matematicamente:
 
 
   
