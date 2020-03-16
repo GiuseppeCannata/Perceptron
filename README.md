@@ -13,7 +13,7 @@ Considerando un numero p di predittori, il vettore <i> X = [x1, x2, ... , xp] </
 <br><br>
 in cui la funzione g(), detta <i> funzione di attivazione </i>, è spesso rappresentata dalla funzione sigmoidea matematicamente esprimibile in questo modo:
 <br><br>
-<img  Hspace="160">
+<img  Hspace="170">
 ![funzione sigmoide](https://latex.codecogs.com/gif.latex?%5Csigma%28x%29%20%3D%20%5Cfrac%7B1%7D%7B%281&plus;e%5Ex%29%7D)
 <br><br>
 Quest'ultima ha un dominio di valori nel range [0,1] rendendo così il percettrone un classificatore binario. In particolare, supponendo di avere due classi A e B, il valore ritornato dalla funzione sigmoidea esprime la probabilità di appartenenza dell'esempio X alla classe A o B.
@@ -22,7 +22,7 @@ Di estrema importanza è il vettore dei pesi W. Il loro valore viene determinato
 <br>
 I pesi vengono determinati attraverso la regola di aggiornamento <i> delta rule </i> (discesa del gradiente). Considerando un solo neurone (appunto il percettrone) possiamo esprimere la delta rule in questo modo:
 <br><br>
-<img  Hspace="160">
+<img  Hspace="170">
 ![delta rule](https://latex.codecogs.com/gif.latex?%5CDelta%7BW%7D%20%3D%20%5Ceta%20%28t%20-%20o%29%20X)
 <br><br>
 el i conseguente aggiornamento del vettore peso:
