@@ -41,7 +41,7 @@ class perceptron():
                 y_pred = self.relu(pa)
                 error = self.y[i] - y_pred
                 # backprop
-                self.weights += self.eta * error * observation * self.derivata_relu(pa)  # delta rule
+                self.weights += self.eta * error * observation #* self.derivata_relu(pa)  # delta rule
 
     def pred(self, x):
         return self.relu(np.sum(np.dot(self.weights, x.T)))
