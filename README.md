@@ -17,8 +17,11 @@ Quest'ultima ha un dominio di valori nel range [0,1] rendendo così il percettro
 Di estrema importanza è il vettore dei pesi W. Il loro valore viene determinato durante la fase di apprendimento <i> (training) </i>, in maniera tale che la differenza (target - output) sia la più piccola possibile. Ma quanto piccola? Considerando (target - output) come la funzione di loss, l'obiettivo è quello di raggiungere il <i> minimo globale </i>. In particolare con il termine target ci riferiamo al valore con cui labelliamo l'osservazione X <i> (valore atteso) </i>, al contrario, con il termine output ci riferiamo al valore restituito dal percettrone <i>(predizione) </i>. 
 <br>
 I pesi vengono determinati attraverso la regola di aggiornamento <i> delta rule </i> (discesa del gradiente). Considerando un solo neurone (appunto il percettrone) possiamo esprimere la delta rule in questo modo:
+<br><br>
 ![delta rule](https://latex.codecogs.com/gif.latex?%5CDelta%7BW%7D%20%3D%20%5Ceta%20%28t%20-%20o%29%20X)
+<br><br>
 el i conseguente aggiornamento del vettore peso:
+<br><br>
 ![aggiornamento pesi](https://latex.codecogs.com/gif.latex?W_%7Bnew%7D%20%3D%20W_%7Bold%7D%20&plus;%20%5CDelta%7BW%7D)
 
 
