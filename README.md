@@ -12,8 +12,9 @@ in cui la funzione g(), detta <i> funzione di attivazione </i>, è spesso rappre
 
 ![first equation](https://latex.codecogs.com/gif.latex?%5Csigma%28x%29%20%3D%20%5Cfrac%7B1%7D%7B%281&plus;e%5Ex%29%7D)
 
-La funzione sigmoidea ha un dominio di valori nel range [0,1] rendendo così il percettrone un classificatore binario. In particolare, supponendo di avere due classi A e B, il valore ritornato dalla funzione sigmoidea esprime la probabilità di appartenenza dell'esempio x alla classe A o B.
+Quest'ultima ha un dominio di valori nel range [0,1] rendendo così il percettrone un classificatore binario. In particolare, supponendo di avere due classi A e B, il valore ritornato dalla funzione sigmoidea esprime la probabilità di appartenenza dell'esempio X alla classe A o B.
 <br><br>
+Di estrema importanza è il vettore dei pesi W.
 
 
   
