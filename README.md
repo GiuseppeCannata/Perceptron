@@ -1,5 +1,7 @@
 # Perceptron
 
+<b> - Introduzione </b>
+<br><br>
 Il percettrone venne proposto da Frank Rosenblatt nel 1958. La struttura è la seguente:
 <br><br>
 <img  src="./img/percettrone.JPG" height="250" width="450">
@@ -23,7 +25,8 @@ I pesi vengono determinati attraverso la regola di aggiornamento <i> delta rule 
 el i conseguente aggiornamento del vettore peso:
 <br><br>
 ![aggiornamento pesi](https://latex.codecogs.com/gif.latex?W_%7Bnew%7D%20%3D%20W_%7Bold%7D%20&plus;%20%5CDelta%7BW%7D)
-
+<br><br>
+<b> - Regressione </b>
 
 
 
