@@ -34,7 +34,7 @@ el i conseguente aggiornamento del vettore peso:
 <br><br>
 Modificando la funzione di attivazione possiamo ottenere un modello regressivo. In particolare, sostituiamo la funzione sigmoidea con la funzione ReLU. Quest'ultima viene ad esprimersi matematicamente:
 <br><<br>
-<img  Hspace="150">
+<img  Hspace="170">
 ![formula relu](https://latex.codecogs.com/gif.latex?ReLU%28x%29%20%3D%20max%280%2Cx%29)
 <br><br>
 Detto ciò, il nostro percettrone costituirà un modello definito dal seguente hyperpiano:
